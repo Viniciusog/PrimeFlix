@@ -1,0 +1,15 @@
+footer{
+    width: 50%;
+    margin: 40px auto;
+}
+
+.infoFooter{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0px
+}
+
+.marca{
+    text-align: center;
+}

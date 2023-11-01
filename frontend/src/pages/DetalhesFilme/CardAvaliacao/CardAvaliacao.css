@@ -1,0 +1,15 @@
+.cardAvaliacao{
+    border-radius: 15px;
+    padding: 0px 4px;
+    color: var(--text_color);   
+}
+
+.spanAvaliacao{
+    display: flex;
+    justify-content: end;
+}
+
+.Avaliacao{
+    display: flex;
+    align-items: center;
+}

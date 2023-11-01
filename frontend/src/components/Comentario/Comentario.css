@@ -1,0 +1,27 @@
+.ContainerInputComentario {
+	margin: 15px 0px;
+	display: flex;
+	border-radius: 50px;
+	border: 1px solid #cecece;
+}
+
+.inputComentario {
+	color: rgba(50, 50, 50, 0.68);
+	border: none;
+}
+
+.inputComentario:focus {
+	outline: none;
+}
+
+.titulo {
+	color: rgba(50, 50, 50, 0.68);
+}
+
+.likeCor {
+	color: rgb(55, 55, 197);
+}
+
+.dislikeCor {
+	color: #c8c8c8;
+}

@@ -1,0 +1,196 @@
+.loginBox {
+	width: 40em;
+	height: 31.8em;
+	flex-shrink: 0;
+	border-radius: 22px;
+	border: 2px solid #efefef;
+	background: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3%;
+}
+
+.titleFont {
+	color: #dfa83e;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+	font-family: Roboto Condensed;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.titlePlacing {
+	margin-left: 12%;
+	margin-top: 7%;
+	margin-bottom: 3%;
+	font-size: 45px;
+}
+
+.errorGapLogin {
+	margin-bottom: 2%;
+	font-size: 45px;
+}
+
+.text {
+	color: rgba(17, 17, 17, 0.68);
+	font-family: Roboto Flex;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-top: 3%;
+	margin-bottom: 0.5%;
+}
+
+.align {
+	width: 100%;
+	list-style: none;
+	display: flex;
+	justify-content: flex-start;
+	gap: 10.5em;
+	position: relative;
+}
+
+.textBox {
+	width: 100%;
+	height: 50px;
+	flex-shrink: 0;
+	border-radius: 10px;
+	border: 1px solid rgba(17, 17, 17, 0.68);
+	background: rgba(217, 217, 217, 0.36);
+	color: rgba(17, 17, 17, 0.68);
+	/*margin-bottom: 0.4em;*/
+	box-sizing: border-box;
+}
+
+.input {
+	font-family: Roboto Flex;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: normal;
+	border: none;
+	background: none;
+	width: 96%;
+	height: 100%;
+
+	color: rgba(17, 17, 17, 0.68);
+	margin-left: 2%;
+
+	box-sizing: border-box;
+}
+.input:focus {
+	outline: none;
+}
+
+.content {
+	margin-top: 2%;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	position: relative;
+	align-items: center;
+}
+
+.forgot {
+	color: #dfa83e;
+	font-family: Roboto Flex;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	float: right;
+	margin-top: 3%;
+}
+
+.forgot_FontSize {
+	font-size: 19px;
+}
+
+.underline:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.button {
+	flex-shrink: 0;
+	border-radius: 15px;
+	background: rgba(223, 168, 62, 0.83);
+	border: none;
+	color: #564438;
+	text-align: center;
+	font-family: Roboto flex;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	cursor: pointer;
+}
+
+.entrar {
+	width: 122px;
+	height: 52px;
+	margin-top: 5%;
+}
+
+.list_cadastro {
+	display: flex;
+	list-style: none;
+	gap: 0.2em;
+	margin-top: 5%;
+	font-size: 22px;
+}
+
+.error {
+	color: #d3504a;
+	font-family: Roboto Flex;
+	font-size: 21px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.errorBox {
+	display: flex;
+	flex-direction: column;
+	gap: 0.2em;
+	margin-left: 18%;
+}
+
+.errorGapCadastro {
+	margin-top: 2%;
+}
+
+@media(max-width:840px){
+	.loginBox{
+		width: 90%;
+	}
+
+}
+
+@media(max-width:500px){
+	.align {
+		width: 100%;
+		list-style: none;
+		display: flex;
+		justify-content: flex-start;
+		gap: 3em;
+		position: relative;
+	}
+
+	.titlePlacing{
+		font-size: 40px;
+		margin-top: 10%;
+	}
+	.text{
+		font-size: 22px;
+	}
+	.forgot_FontSize{
+		font-size: 17px;
+	}
+	.list_cadastro{
+		font-size: 17px;
+	}
+	.loginBox{
+		height: 28em;
+	}
+}

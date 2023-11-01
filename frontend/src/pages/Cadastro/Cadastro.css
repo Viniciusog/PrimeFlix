@@ -1,0 +1,249 @@
+#containerCadastro {
+	width: 60vw;
+	height: auto;
+	flex-shrink: 0;
+	border-radius: 22px;
+	border: 2px solid #efefef;
+	background: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3%;
+	padding: 20px;
+}
+
+#containerFlexCadastro {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 70vh;
+	height: 100%;
+}
+
+#containerFlexRadio {
+	display: flex;
+	gap: 10px;
+	align-items: flex-end;
+	justify-content: space-evenly;
+}
+
+#containerData {
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+}
+
+.grupoInput {
+	display: flex;
+	justify-content: space-around;
+	margin: 15px 0px;
+}
+
+.grupoInputFilho {
+	width: 45%;
+}
+
+form {
+	margin: 10px 0px;
+}
+
+.containerRadio label {
+	display: inline;
+}
+
+.containerRadio {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+select {
+	border-radius: 10px;
+	border: 1px solid rgba(17, 17, 17, 0.68);
+	background: rgba(217, 217, 217, 0.36);
+	padding: 7px;
+	height: 50px;
+	font-family: Roboto Flex;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: normal;
+	background: rgba(217, 217, 217, 0.36);
+	color: rgba(17, 17, 17, 0.68);
+	margin-bottom: 0.4em;
+	box-sizing: border-box;
+}
+
+input[type="number"] {
+	width: 100%;
+	border-radius: 10px;
+	border: 1px solid rgba(17, 17, 17, 0.68);
+	background: rgba(217, 217, 217, 0.36);
+	color: rgba(17, 17, 17, 0.68);
+	/*margin-bottom: 0.4em;*/
+	box-sizing: border-box;
+	height: 50px;
+	font-family: Roboto Flex;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: normal;
+	margin-left: 0.5%;
+}
+
+input[type="radio"]:checked {
+	accent-color: var(--primary);
+}
+
+input[type="radio"] {
+	max-width: 20px;
+}
+
+input[type="text"],
+select {
+	width: 90%;
+}
+
+label {
+	display: block;
+	color: rgba(17, 17, 17, 0.68);
+	font-family: Roboto Flex;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-top: 3%;
+	margin-bottom: 0.5%;
+}
+
+#containerBtnsForm {
+	display: flex;
+	justify-content: end;
+}
+
+#btnLimpar {
+	border-radius: 15px;
+	background: #c8c8c8;
+}
+
+button {
+	text-align: center;
+	border-radius: 15px;
+	font-weight: 700;
+	padding: 5px 10px;
+	color: #564438;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 1rem;
+	margin: 0px 3px;
+	border: none;
+}
+
+#containerCadastro p {
+	margin: 0px;
+	color: var(--primary);
+}
+.spanFormErro {
+	color: #d3504a;
+	font-family: Roboto Flex;
+	font-size: 21px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	display: block;
+}
+
+/* #labelDataNasc {
+	margin-left: 15px;
+}
+*/
+
+.sucess{
+	color: rgba(17, 17, 17, 0.68);
+	font-family: Roboto Flex;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	margin-top: 2.5em;
+	margin-bottom: 2.8em;
+}
+
+.textBoxCadastro {
+	width: 100%;
+	height: 50px;
+	flex-shrink: 0;
+	border-radius: 10px;
+	border: 1px solid rgba(17, 17, 17, 0.68);
+	background: rgba(217, 217, 217, 0.36);
+	color: rgba(17, 17, 17, 0.68);
+	box-sizing: border-box;
+}
+
+.inputCadastro {
+	font-family: Roboto Flex;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: normal;
+	border: none;
+	background: none;
+	width: 96%;
+	height: 100%;
+
+	color: rgba(17, 17, 17, 0.68);
+	margin-left: 2%;
+
+	box-sizing: border-box;
+}
+
+.inputCadastro:focus {
+	outline: none;
+}
+
+.size{
+	margin-left: 2%;
+}
+
+@media(max-width:800px){
+
+	label {
+		font-size: 16px;
+	}
+
+	.grupoInputFilho {
+		width: 20%;
+	}
+
+	.size{
+		font-size: 38px;
+		margin-left:0;
+	}
+
+	.textBoxCadastro{
+		width: 100%;
+		height: 40px;
+	}
+
+	.inputCadastro {
+		font-size: 16px;
+		width: 96%;
+		height: 100%;
+	}
+
+	.grupoInput{
+		justify-content: center;
+		gap: 0;
+	}
+
+	#containerCadastro{
+		width: 80%;
+	}
+
+	input[type="number"] {
+		height: 40px;
+		font-size: 16px;
+	}
+
+	select{
+		height: 40px;
+		font-size: 16px;
+	}
+
+}

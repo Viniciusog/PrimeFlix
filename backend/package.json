@@ -1,0 +1,29 @@
+{
+  "name": "catitrainee",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@gitlab.com:cati-jr/trainees-2023/grupo-a/backend.git",
+  "author": "Vinícius Guimarães <vinijipa23@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.ts",
+    "build": "sucrase ./src -d ./dist --transforms typescript,imports"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "sucrase": "^3.34.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.4.0",
+    "axios": "^1.5.0",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.23.2",
+    "fastify-cors": "^6.1.0",
+    "firebase": "^10.4.0",
+    "firebase-admin": "^11.10.1",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "uuid": "^9.0.1"
+  }
+}

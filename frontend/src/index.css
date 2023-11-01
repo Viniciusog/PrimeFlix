@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+:root {
+  --secondary: #FFF5E0;
+  --text_color: #564438; 
+  --primary: #DFA83E;
+  --extra: #D3504A;
+  --mobileMin: '320px';
+  --mobileMax: '480px';
+  --tabletMin: '481px';
+  --tabletMax: '768px';
+  --laptopMin: '769px'; 
+  --laptopMax: '1024px';
+  --desktop: '1025px';
+
+  font-family: 'Roboto Condensed', sans-serif;
+  box-sizing: border-box;
+
+}
+
+.swiper-slide {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+
+body {
+ background-color: var(--secondary);
+}
+
+.corTitulo{
+  color: var(--text_color);
+}

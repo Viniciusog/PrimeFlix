@@ -1,0 +1,20 @@
+.CardContainer {
+	display: flex;
+	margin: 10px 0px;
+}
+
+.CardContainer p {
+	color: #323232;
+	text-align: justify;
+}
+
+.CardContainer span {
+	display: flex;
+	align-items: center;
+}
+
+.tituloCard {
+	color: rgba(17, 17, 17, 0.68);
+	margin: 0px;
+	font-size: 1.3em;
+}

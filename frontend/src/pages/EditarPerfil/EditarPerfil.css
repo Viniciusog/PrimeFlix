@@ -1,0 +1,49 @@
+#divIconePerfil {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#iconePerfil {
+	position: fixed;
+	top: 20vh;
+}
+
+.campoMaior {
+	width: 100%;
+	padding: 6px 20px;
+}
+
+.noGap {
+	gap: 0px;
+}
+
+.justificarCentro {
+	justify-content: center;
+}
+
+#btnSalvar {
+	border-radius: 15px;
+	background: rgba(223, 168, 62, 0.83);
+}
+
+.grupoInput {
+	display: flex;
+	width: 100%;
+}
+
+.grupoInputFilho {
+	width: 100%;
+	margin: 0px 5px
+}
+
+#containerData {
+	width: 100%;
+	gap: 10px;
+}
+
+input {
+	background-color: whitesmoke;
+	width: 100%;
+	margin: 0px;
+}

@@ -1,0 +1,32 @@
+.containerDetalhes {
+	max-width: 95%;
+	margin: 10px auto;
+	padding: 20px;
+	border-radius: 15px;
+}
+
+.containerConteudoDetalhes {
+	background-color: white;
+}
+
+.containerAvaliacoes {
+	display: flex;
+	align-items: center;
+}
+
+.spanAvaliacaoFilme {
+	min-height: 100px;
+	width: 1px;
+	background-color: rgba(50, 50, 50, 0.25);
+	margin: 0px 5px;
+}
+
+.spanVoltar {
+	cursor: pointer;
+	font-weight: 400;
+	color: rgba(50, 50, 50, 0.68);
+}
+
+#inputComentarioUser {
+	background: white;
+}

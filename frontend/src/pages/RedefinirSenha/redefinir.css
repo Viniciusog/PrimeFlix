@@ -1,0 +1,75 @@
+.redefinirSenha{
+    font-size: 48px;
+}
+
+.textSize{
+    font-size:24px;
+}
+
+.contentBox{
+    width:430px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 107px;
+    margin-top:68px;
+    gap:0.9em;
+}
+
+.formPlacing{
+    margin-top:6%
+}
+
+
+.continuar{
+    width: 155px;
+    height: 52px;
+    margin-top: 9%;
+    margin-left: 31%;
+}
+
+.emailSent{
+    font-size: 28px;
+    margin-top:12%;
+}
+
+.fazerLogin{
+    width: 169px;
+    height: 52px;
+    margin-top: 20%;
+    margin-left: 28%;
+}
+
+.newPassword{
+    display: flex;
+    flex-direction: column;
+    margin-left: 11%;
+    margin-top: 10.5%;
+}
+
+.newPassword h4{
+    font-size:26px;
+
+}
+
+.newPasswordBox{
+    width:430px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 107px;
+    margin-top: 1em;
+    gap:0.2em;
+}
+
+.redefinir{
+    width: 141px;
+    height: 52px;
+    margin-left: 34%;
+    margin-top: 7%;
+}
+
+.senhaRedefinida{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30%;
+}

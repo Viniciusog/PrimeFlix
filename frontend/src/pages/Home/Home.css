@@ -1,0 +1,46 @@
+.containerHome {
+	max-width: 95%;
+	margin: 10px auto;
+	padding: 20px;
+}
+
+.h2Home {
+	color: var(--text_color);
+	margin: 15px 0px;
+}
+
+.logar {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+	background: rgba(223, 168, 62, 0.09);
+	margin: 0 auto;
+	max-width: 40%;
+	height: 260px;
+	text-align: center;
+}
+
+.btnLogar {
+	border-radius: 20px;
+	background: rgba(223, 168, 62, 0.83);
+	border: none;
+	padding: 5px 10px;
+	margin: 5px 0px;
+	cursor: pointer;
+}
+
+.tituloTop1 {
+	color: #564438;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	font-weight: 500;
+}
+
+.ContainerTop1 {
+	height: 600px;
+}
+
+.containerHome h1 {
+	margin: 10px 0px 30px 0px;
+}
