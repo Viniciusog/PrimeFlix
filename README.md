@@ -100,6 +100,10 @@ Os usuários também têm a opção de adicionar comentários aos filmes, com a 
 Para disponibilizar as avaliações de cada filme, foi implementada uma funcionalidade no backend que calcula a média das avaliações para cada filme. Isso envolve a soma de todas as avaliações e a subsequente divisão pelo total de avaliações registradas no sistema. Esta rota é chamada para fornecer com precisão a média das avaliações no frontend.
 ![Comentários](./images/comentariosAvaliacoes.png)
 
+## Tela do Perfil
+Cada usuário consegue mudar as suas informações do perfil. Além disso, caso mude o gênero de filme favorito, a recomendação de filmes para esse usuário também é atualizada para satisfazer a mudança.
+![Perfil](./images/telaPerfil.png)
+
 ### Tela do Admin
 
 O administrador, de acordo com as especificações do cliente, é um usuário com um perfil distinto no sistema. Isso significa que ele não possui todas as funcionalidades disponíveis para um usuário comum, sendo designado exclusivamente para gerenciar o cadastro de usuários.
