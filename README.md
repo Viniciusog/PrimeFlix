@@ -29,7 +29,8 @@ do que assistir.
 
 ## Banco de Dados
 
-Neste sistema, foi utilizado um sistema de banco de dados não relacional (NOSQL), Firestore. Para realizar sua implementação, um diagrama foi elaborado:
+Neste sistema, foi utilizado um sistema de banco de dados não relacional (NOSQL), Firestore.<br> 
+Para realizar sua implementação, um diagrama foi elaborado:
 
 ![DER](./images/DER.jpeg)
 
@@ -44,7 +45,8 @@ Logo, não mantemos informações completas dos filmes em nosso banco de dados. 
 
 ### Tela Home
 
-A página inicial do PrimeFlix apresenta duas versões distintas: uma versão para usuários autenticados e outra para visitantes. A versão autenticada inclui recursos exclusivos que serão explorados posteriormente e que só estão disponíveis com autenticação.
+A página inicial do PrimeFlix apresenta duas versões distintas: uma versão para usuários autenticados e outra para visitantes.<br> 
+A versão autenticada inclui recursos exclusivos que serão explorados posteriormente e que só estão disponíveis com autenticação.
 
 ![Home Visitante](./images/homeVisitante.png)
 ![Home Logado](./images/homeLogado.png)
