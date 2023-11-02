@@ -118,4 +118,6 @@ Na tela de administração, o administrador tem a capacidade de visualizar todos
 - Vitor Kasai Tanoue - Desenvolvedor Backend
 - Vinícius Guimarães - Desenvolvedor Backend
 - Lucas de Araújo Cardoso - Desenvolvedor Backend
+- João Victor Pacini -
+Desenvolvedor Backend
 - Nicole Correa Ramos - Prototipação e Marketing
