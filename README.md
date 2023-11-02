@@ -116,3 +116,4 @@ Na tela de administração, o administrador tem a capacidade de visualizar todos
 ## Colaboradores
 - Vitor Kasai Tanoue - Desenvolvedor Backend
 - Vinícius Guimarães - Desenvolvedor Backend
+- Nicole Correa Ramos - Prototipação e Marketing
