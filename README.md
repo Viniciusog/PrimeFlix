@@ -26,6 +26,7 @@ do que assistir.
 ### Outras Tecnologias
 
 - TMDB API
+- Figma
 
 ## Banco de Dados
 
