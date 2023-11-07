@@ -121,3 +121,5 @@ Na tela de administração, o administrador tem a capacidade de visualizar todos
 - João Victor Pacini -
 Desenvolvedor Backend
 - Nicole Correa Ramos - Prototipação e Marketing
+- Maristella Rangel - Desenvolvedora Frontend
+  
